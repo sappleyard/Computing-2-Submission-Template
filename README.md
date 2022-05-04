@@ -1,32 +1,43 @@
-**CID:** [your CID]
+# Computing 2 Coursework Submission.
+**CID**: [YOUR CID]
 
-# Project
-This repository is for the submission of your **Computing 2: Applications** coursework.
+This is the submission template for your Computing 2 Applications coursework submission.
 
-You should complete the proforma and populate this repository with your project submission.
+## Checklist
+### Game Module – API
+*You will produce an API specification, i.e. a list of function names and their signatures, for a Javascript module that represents the state of your game and the operations you can perform on it that advances the game or provides information.*
 
-* **Repository Creation Check:** Tuesday 4th May 18:00 – Update your CID in this file to check your submission.
-* **Peer Assessment Deadline:** Tuesday 8th June 18:00
-* **Final Submission Deadline:** Thursday 17th June 16:00
+- [ ] Include a `.js ` module file in `/web-app/common` containing the API using `jsdoc`.
+- [ ] Update `/jsdoc.json` to point to this module in `.source.include` (line 7)
+- [ ] Compile jsdoc using the run configuration `Generate Docs`
+- [ ] Check the generated docs have compiled correctly.
 
-# Computing 2 Submission Proforma
+### Game Module – Implementation
+*You will implement, in Javascript, the module you specified above. Such that your game can be simulated in code, e.g. in the debug console.*
 
-For each section, write a maximum of 200 words.
+- [ ] The file above should be fully implemented.
 
-## Brief
-*State what you set out to acomplish with this web app.*
+### Unit Tests – Specification
+*For the Game module API you have produced, write a set of unit tests descriptions that specify the expected behaviour of one aspect of your API, e.g. you might pick the win condition, or how the state changes when a move is made.*
 
-## Coding
-*Highlight your approach to coding in this project.*
+- [ ] Write unit test definitions in `/web-app/tests`.
+- [ ] Check the headings appear in the Testing sidebar.
 
-## UX/UI
-*Outline the key elements of your UX/UI design.*
+### Unit Tests – Implementation
+*Implement in code the unit tests specified above.*
 
-## Data
-*Explain how you structure and process your data.*
+- [ ] Implement the tests above.
 
-## Debugging
-*Describe how you used debugging practices and tools and how they helped you overcome a bug or conceptual issue.*
+### Web Application
+*Produce a web application that allows a user to interface with your game module.*
 
-## Best Practice
-*Outline your use of software development best practices*
+- Implement in `/web-app/browser`
+  - [ ] `index.html`
+  - [ ] `default.css`
+  - [ ] `main.js`
+  - [ ] Any other files you need to include.
+
+### Finally
+- [ ] Push to GitHub.
+- [ ] Sync the changes.
+- [ ] Check submission on GitHub website.
