@@ -7,7 +7,7 @@ This is the submission template for your Computing 2 Applications coursework sub
 ### Install dependencies locally
 This template relies on a a few packages from the Node Package Manager, npm.
 To install them run the following commands in the terminal.
-```shell
+```properties
 npm install
 npm install --prefix ./web-app/common
 ```
