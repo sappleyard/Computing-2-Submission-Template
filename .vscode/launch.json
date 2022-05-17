@@ -16,7 +16,7 @@
         },
         {
             "name": "Generate Docs",
-            "command": "jsdoc -c jsdoc.json & exit",
+            "command": "jsdoc -c jsdoc.json",
             "request": "launch",
             "type": "node-terminal"
         },
