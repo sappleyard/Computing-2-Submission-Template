@@ -20,7 +20,7 @@
             ]
         },
         {
-            "name": "Debug Connect4.js",
+            "name": "Debug Module",
             "type": "node",
             "request": "launch",
             "skipFiles": [
